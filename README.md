@@ -51,10 +51,6 @@
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？</p>
     <img src="https://i.ibb.co/THHVTVs/IMG-4284.png" alt="我是誰？" width="320" height="370"  >
     
-    <button onclick="alert('漢頓')" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
-
-
-    
     <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
 
     <!-- 彈出視窗 -->
@@ -78,6 +74,10 @@
         // 當點擊按鈕時，打開彈窗
         btn.onclick = function() {
             modal.style.display = "block";
+            document.getElementById('modalOverlay').style.display = 'none';
+        document.body.innerHTML = `
+                <h2>下一頁內容</h2>
+                <p>這是新的頁面內容，之前的內容已經被清空。</p> `；
         }
 
         // 當點擊關閉按鈕時，關閉彈窗
@@ -91,9 +91,10 @@
                 modal.style.display = "none";
             }
         }
+        
     </script>
     
-    <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答
+    <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點我看漢頓簡介
     </a>
     
 </body>
