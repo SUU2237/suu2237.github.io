@@ -38,7 +38,7 @@
 <body>
     <h1>漢頓的海底世界！</h1>
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？</p>
-    <img src="https://ibb.co/nq24sm6" alt="我是誰？" >
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftech.udn.com%2Ftech%2Fstory%2F123154%2F7831081&psig=AOvVaw02JwF0L96gKm2Bt_cC8GgL&ust=1728629722129000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj0m9Kdg4kDFQAAAAAdAAAAABAE" alt="我是誰？" >
     
     <button onclick="alert('漢頓')" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
     <div class="top-layer">漢頓</div>
