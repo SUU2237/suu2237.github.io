@@ -69,7 +69,8 @@
             </a>
         </div>
     </div>
-    <button class="container" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">我已經知道了</button>
+    <br>
+    <button id="form" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">我已經知道了</button>
 
     <script>
        // 獲取彈窗元素
