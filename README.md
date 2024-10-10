@@ -13,7 +13,7 @@
             left: 0;
             top: 0;
             width: 100%;
-            height: 100%;
+            height: 150%;
             background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
         }
         .modal-content {
