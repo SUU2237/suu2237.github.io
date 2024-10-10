@@ -21,6 +21,16 @@
             left: 50px;
             z-index: 10; 
         }
+        .modal {
+            display: none; /* 初始隱藏 */
+            position: fixed; /* 固定位置 */
+            z-index: 1; /* 保證位於頂層 */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+        }
         .modal-content {
             background-color: #fefefe;
             margin: 15% auto; /* 中心對齊 */
@@ -48,13 +58,13 @@
 
 
     
-    <button id="openModalBtn">點擊彈出視窗</button>
+    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點擊彈出視窗</button>
 
     <!-- 彈出視窗 -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>這是自定義彈出視窗</h2>
+            <h2>漢頓！</h2>
             <p>你可以在這裡添加自定義的內容。</p>
         </div>
     </div>
