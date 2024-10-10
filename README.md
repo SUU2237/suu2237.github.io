@@ -55,14 +55,13 @@
 
 
     
-    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點擊彈出視窗</button>
+    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
 
     <!-- 彈出視窗 -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>漢頓！</h2>
-            <p>你可以在這裡添加自定義的內容。</p>
         </div>
     </div>
 
