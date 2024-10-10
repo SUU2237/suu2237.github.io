@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>漢頓</title>
     <h1>海底世界</h1>
+    <script>
+        function replacePage() {
+            window.location.replace("nextpage.html");
+        }
+    </script>
     <style>
         
         .modal {
@@ -71,6 +76,7 @@
     </div>
     <br>
     <button id="form" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">我已經知道了</button>
+    <button onclick="replacePage()">替換到下一頁</button>
 
     <script>
        // 獲取彈窗元素
@@ -98,7 +104,7 @@
                 modal.style.display = "none";
             }
         }
-
+        
     </script>
     
     
