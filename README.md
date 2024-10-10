@@ -53,19 +53,19 @@
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？又是什麽生物呢？</p>
     <img src="https://uc.udn.com.tw/photo/2024/03/14/0/29192883.jpg" alt="我是誰">
     <br>
-    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; outline: none; border-radius: 4px;">解答</button>
+    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; outline: none;border: none; border-radius: 4px;">解答</button>
 
     <!-- 彈出視窗 -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>漢頓！</h2>
-            <a href="https://www.sanrio.com.tw/wp-content/uploads/2018/09/25.%E6%98%8E%E6%98%9F%E4%BB%8B%E7%B4%B9HG-01.png" target="_blank" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-block;outline: none; border-radius: 4px;">點我看簡介
+            <a href="https://www.sanrio.com.tw/wp-content/uploads/2018/09/25.%E6%98%8E%E6%98%9F%E4%BB%8B%E7%B4%B9HG-01.png" target="_blank" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-block;outline: none;border: none; border-radius: 4px;">點我看簡介
             </a>
         </div>
     </div>
     <br>
-    <button id="next" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-block; outline: none; border-radius: 4px;" onclick="replacePage()">我已經知道了，直接進測驗！</button>
+    <button id="next" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-block; outline: none; border:none;border-radius: 4px;" onclick="replacePage()">我已經知道了，直接進測驗！</button>
 
     <script>
        // 獲取彈窗元素
