@@ -3,24 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>漢頓</title>
-    <h1>我的網頁</h1>
+    <h1>漢頓的海底世界</h1>
     <style>
-        .background {
-            width: 300px;
-            height: 300px;
-            background-color: lightblue;
-            position: relative; 
-            z-index: 1;
-        }
-        .top-layer {
-            width: 150px;
-            height: 150px;
-            background-color: #93cad0;
-            position: absolute; 
-            top: 50px;
-            left: 50px;
-            z-index: 10; 
-        }
+        
         .modal {
             display: none; /* 初始隱藏 */
             position: fixed; /* 固定位置 */
@@ -63,7 +48,6 @@
     </style>
 </head>
 <body>
-    <h1>漢頓的海底世界</h1>
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？</p>
     <img src="https://i.ibb.co/THHVTVs/IMG-4284.png" alt="我是誰？" width="320" height="370"  >
     
