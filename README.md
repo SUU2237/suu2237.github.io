@@ -64,32 +64,8 @@
     </div>
 
     <script>
-        // 獲取彈窗元素
-        var modal = document.getElementById("myModal");
+        anchors.add();
 
-        // 獲取開啟彈窗的按鈕
-        var btn = document.getElementById("openModalBtn");
-
-        // 獲取關閉按鈕
-        var span = document.getElementsByClassName("close")[0];
-
-        // 當點擊按鈕時，打開彈窗
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        // 當點擊關閉按鈕時，關閉彈窗
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // 當點擊彈窗外部時，也關閉彈窗
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-        
     </script>
     
     
