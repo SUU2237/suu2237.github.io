@@ -74,10 +74,6 @@
         // 當點擊按鈕時，打開彈窗
         btn.onclick = function() {
             modal.style.display = "block";
-            document.getElementById('modalOverlay').style.display = 'none';
-        document.body.innerHTML = `
-                <h2>下一頁內容</h2>
-                <p>這是新的頁面內容，之前的內容已經被清空。</p> `；
         }
 
         // 當點擊關閉按鈕時，關閉彈窗
@@ -90,6 +86,11 @@
             if (event.target == modal) {
                 modal.style.display = "none";
             }
+
+        document.getElementById('modalOverlay').style.display = 'none';
+            document.body.innerHTML = `
+                <h2>下一頁內容</h2>
+                <p>這是新的頁面內容，之前的內容已經被清空。</p> `；
         }
         
     </script>
