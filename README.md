@@ -46,21 +46,11 @@
             background-color: #c2e0e7;
             color: #333;
             font-family: Arial, sans-serif;
-            }
-        .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #c2e0e7;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-        
+            } 
     </style>
 </head>
 <body>
-    <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？</p>
+    <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？又是什麽生物呢？</p>
     <img src="https://i.ibb.co/THHVTVs/IMG-4284.png" alt="我是誰？" width="350" height="370"  >
     <br>
     <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
