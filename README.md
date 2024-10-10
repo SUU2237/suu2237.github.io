@@ -70,8 +70,6 @@
             </a>
             <a class="button" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">我已經知道了！
             </a>
-            <div class="container">
-            </div>
         </div>
     </div>
 
