@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>漢頓</title>
-    <h1>漢頓的海底世界</h1>
+    <h1>海底世界</h1>
     <style>
         
         .modal {
