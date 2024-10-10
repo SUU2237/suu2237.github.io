@@ -1,8 +1,97 @@
-<html>
-  <head>
-    <title>ABC</title>
-  </head>
-  <body>
-    <h1>abc</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢頓小測驗！</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>漢頓小測驗！</h1>
+
+    <form id="quizForm">
+        <!-- 問題 1 -->
+        <div class="question">
+            <p>1. 漢頓是什麽生物？</p>
+            <input type="radio" name="q1" value="A"> 河童<br>
+            <input type="radio" name="q1" value="B"> 厚唇魚<br>
+            <input type="radio" name="q1" value="C"> 半人魚
+        </div>
+
+        <!-- 問題 2 -->
+        <div class="question">
+            <p>2. 漢頓的生日是？</p>
+            <input type="radio" name="q2" value="A"> 3/12<br>
+            <input type="radio" name="q2" value="B"> 3/13<br>
+            <input type="radio" name="q2" value="C"> 3/14
+        </div>
+
+        <!-- 問題 3 -->
+        <div class="question">
+            <p>3. 漢頓的專長是？</p>
+            <input type="radio" name="q3" value="A"> 擅長逗人發笑<br>
+            <input type="radio" name="q3" value="B"> 游泳<br>
+            <input type="radio" name="q3" value="C"> coding
+        </div>
+
+        <!-- 問題 4 -->
+        <div class="question">
+            <p>4. 以下何者不是漢頓喜歡的食物？</p>
+            <input type="radio" name="q4" value="A"> 蝦味仙貝<br>
+            <input type="radio" name="q4" value="B"> 章魚<br>
+            <input type="radio" name="q4" value="C"> 涼麵
+        </div>
+
+        <!-- 問題 5 -->
+        <div class="question">
+            <p>5. 漢頓是由哪家公司創造出的？</p>
+            <input type="radio" name="q5" value="A"> San-X<br>
+            <input type="radio" name="q5" value="B"> Sanrio<br>
+            <input type="radio" name="q5" value="C"> BANDAI
+        </div>
+
+        <button type="button" onclick="calculateScore()">提交測驗</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        // 正確答案列表
+        const answers = {
+            q1: 'C',
+            q2: 'C',
+            q3: 'A',
+            q4: 'B',
+            q5: 'B'
+        };
+
+        function calculateScore() {
+            let score = 0;
+            const form = document.getElementById('quizForm');
+            const formData = new FormData(form);
+
+            // 遍歷每個問題，計算正確答案
+            for (let [question, answer] of Object.entries(answers)) {
+                if (formData.get(question) === answer) {
+                    score++;
+                }
+            }
+
+            // 顯示結果
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `你答對了 ${score} 題，共 5 題。`;
+        }
+    </script>
+</body>
 </html>
