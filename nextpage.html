@@ -63,7 +63,8 @@
             <input type="radio" name="q5" value="C"> BANDAI
         </div>
 
-        <button type="button" onclick="calculateScore()">提交測驗</button>
+        <button type="button" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;" 
+            onclick="calculateScore()">提交測驗</button>
     </form>
 
     <div class="result" id="result"></div>
@@ -92,7 +93,7 @@
 
             // 顯示結果
             const resultDiv = document.getElementById('result');
-            resultDiv.textContent = <h3>`你答對了 ${score} 題！`</h3>;
+            resultDiv.textContent = <h1>`你答對了 ${score} 題！`</h1>;
         }
     </script>
 </body>
