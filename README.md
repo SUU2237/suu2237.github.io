@@ -44,8 +44,9 @@
         <em>解答</em>
     </button>
     <div id="popup" popover>
-        漢頓</div>
-    
+        漢頓
+        <button popovertarget="popup">Close</button>
+    </div>
     <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答
     </a>
     
