@@ -42,12 +42,12 @@
     <button id="showDialog1">
         <em>解答</em>
     </button>
-    <dialog id="myDialog1" open>
+    <dialog id="myDialog1" open.top-layer>
         <p>漢頓</p>
         <button id="closeDialog1">關閉</button>
         ::backdrop
     </dialog>
-    <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點擊這裡
+    <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答
     </a>
     
 </body>
