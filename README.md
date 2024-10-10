@@ -9,4 +9,7 @@
     <p>這是我第一次學習 HTML。</p>
     <a href="https://example.com" style="padding: 10px 20px; background-color: #008CBA; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點擊這裡
     </a>
+    <botton id="showDialog1" class="blue text">
+        解答
+    </botton>
 </body>
