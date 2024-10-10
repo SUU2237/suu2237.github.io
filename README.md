@@ -18,7 +18,7 @@
         }
         .modal-content {
             background-color: #fefefe;
-            
+            margin: 15% auto; /* 中心對齊 */ 
             padding: 20px;
             width: 80%;
             max-width: 400px;
