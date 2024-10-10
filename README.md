@@ -18,12 +18,11 @@
         }
         .modal-content {
             background-color: #fefefe;
-            margin: 15% auto; /* 中心對齊 */
+            
             padding: 20px;
             border: 1px solid #888;
             width: 80%;
             max-width: 400px;
-            hight: 100%
             border-radius: 5px;
         }
         .close {
