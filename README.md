@@ -49,7 +49,7 @@
 </head>
 <body>
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？</p>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sanrio.com%2Fcollections%2Fhangyodon%2Fna-072823&psig=AOvVaw0EwujzmdUJ-Oh7xyQWEZKM&ust=1728638385782000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD8ivO9g4kDFQAAAAAdAAAAABAE" alt="我是誰？"   >
+    <img src="https://i.ibb.co/THHVTVs/IMG-4284.png" alt="我是誰？"   >
     
     <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答</button>
 
@@ -58,7 +58,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>漢頓！</h2>
-            <a href="https://i.ibb.co/THHVTVs/IMG-4284.png" target="_blank" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點我看簡介
+            <a href="https://www.sanrio.com.tw/wp-content/uploads/2018/09/25.%E6%98%8E%E6%98%9F%E4%BB%8B%E7%B4%B9HG-01.png" target="_blank" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點我看簡介
     </a>
         </div>
     </div>
