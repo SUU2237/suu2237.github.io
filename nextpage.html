@@ -6,14 +6,15 @@
     <title>漢頓小測驗！</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             background-color: #c2e0e7;
+            color: #333;
+            font-family: Arial, sans-serif;
         }
         .question {
             margin-bottom: 20px;
         }
         .result {
-            margin-top: 20px;
+            margin-top: 40px;
             font-weight: bold;
         }
     </style>
@@ -91,7 +92,7 @@
 
             // 顯示結果
             const resultDiv = document.getElementById('result');
-            resultDiv.textContent = `你答對了 ${score} 題，共 5 題。`;
+            resultDiv.textContent = `你答對了 ${score} 題！`;
         }
     </script>
 </body>
