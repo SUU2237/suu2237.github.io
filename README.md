@@ -43,10 +43,8 @@
     <button popovertarget="popup">
         <em>解答</em>
     </button>
-    <div id="popup" popover>
-        漢頓
-        <button popovertarget="popup">Close</button>
-    </div>
+    <div class="top-layer">漢頓</div>
+    
     <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">解答
     </a>
     
