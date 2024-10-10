@@ -58,6 +58,8 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>漢頓！</h2>
+            <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點我看簡介
+    </a>
         </div>
     </div>
 
@@ -90,8 +92,7 @@
         
     </script>
     
-    <a href="https://example.com" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; border-radius: 4px;">點我看漢頓簡介
-    </a>
+    
     
 </body>
 </html>
