@@ -53,7 +53,7 @@
     <p>相信不少人都曾看過這隻可愛生物，但你知道他叫什麽嗎？又是什麽生物呢？</p>
     <img src="https://uc.udn.com.tw/photo/2024/03/14/0/29192883.jpg" alt="我是誰">
     <br>
-    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; outline: none;border: none; border-radius: 4px; margin-right: 10px;">解答</button>
+    <button id="openModalBtn" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-   block; outline: none;border: none; border-radius: 4px; margin-right: 10px;">解答&簡介</button>
 
     <!-- 彈出視窗 -->
     <div id="myModal" class="modal">
