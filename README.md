@@ -59,7 +59,7 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>漢頓！</h2>
+            <h2>人魚漢頓！</h2>
             <a href="https://www.sanrio.com.tw/wp-content/uploads/2018/09/25.%E6%98%8E%E6%98%9F%E4%BB%8B%E7%B4%B9HG-01.png" target="_blank" style="padding: 10px 20px; background-color: #93cad0; color: white; text-align: center; text-decoration: none; display: inline-block;outline: none;border: none; border-radius: 4px;">點我看簡介
             </a>
         </div>
